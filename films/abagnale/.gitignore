@@ -2,3 +2,5 @@ refs/
 node_modules/
 draft/frames/
 draft/qa/
+draft/still_*.jpg
+draft/*.wav
