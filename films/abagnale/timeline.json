@@ -1,0 +1,2067 @@
+{
+  "meta": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30,
+    "dur": 50.1,
+    "clock": "voice",
+    "register": "kinetic",
+    "loop": false,
+    "grid": "none",
+    "hookWaiver": null,
+    "vo": {
+      "status": "RENDERED",
+      "file": "films/abagnale/audio/vo_1.08x.wav",
+      "source": "films/abagnale/audio/vo_source.mp3",
+      "atempo": 1.08,
+      "sourceDur": 52.428,
+      "renderedDur": 48.546,
+      "speechEnd": 48.34,
+      "rateWps": 2.503,
+      "asr": "faster-whisper small, int8, language ru, word timestamps, no initial prompt"
+    },
+    "tokens": {
+      "ground": "#14181F",
+      "paper": "#E7E1D4",
+      "ink": "#F2F4F7",
+      "accent": "#FF5C1A",
+      "hud": "#8E99A8",
+      "spot": "#FFE6C4",
+      "accentMeans": "the tell: the mark someone is trusting"
+    },
+    "quantity": "gap between Frank and the reader, staged metres, labelled СХЕМА",
+    "quantityValues": [
+      {
+        "t": 0.0,
+        "gap": 12
+      },
+      {
+        "t": 17.96,
+        "gap": 8
+      },
+      {
+        "t": 23.54,
+        "gap": 3
+      },
+      {
+        "t": 31.68,
+        "gap": 1
+      },
+      {
+        "t": 34.54,
+        "gap": 0
+      },
+      {
+        "t": 39.52,
+        "gap": 0.9
+      }
+    ]
+  },
+  "objects": [
+    {
+      "id": "check",
+      "role": "constant",
+      "what": "One paper check. Ticket, then evidence, then the lesson on the table."
+    },
+    {
+      "id": "frank",
+      "role": "hero",
+      "what": "Original flat plane, screen-left. Not a likeness of any actor."
+    },
+    {
+      "id": "reader",
+      "role": "hero",
+      "what": "Original flat plane, screen-right, older, glasses. The man who learned the hand."
+    },
+    {
+      "id": "pen",
+      "role": "bridge",
+      "what": "Writes the name, then points at it from the other side of the table."
+    },
+    {
+      "id": "gap",
+      "role": "prop",
+      "what": "The staged distance on the one HUD plate. Labelled СХЕМА."
+    }
+  ],
+  "vo": [
+    {
+      "id": "L1",
+      "text": "Представь. Тебе шестнадцать. Ты уже умеешь подписываться чужим именем так, что банк не замечает.",
+      "from": 0.0,
+      "to": 6.2,
+      "words": [
+        {
+          "w": "Представь",
+          "t": 0.0
+        },
+        {
+          "w": "Тебе",
+          "t": 1.04
+        },
+        {
+          "w": "шестнадцать",
+          "t": 1.24
+        },
+        {
+          "w": "Ты",
+          "t": 2.22
+        },
+        {
+          "w": "уже",
+          "t": 2.36
+        },
+        {
+          "w": "умеешь",
+          "t": 2.54
+        },
+        {
+          "w": "подписываться",
+          "t": 2.84
+        },
+        {
+          "w": "чужим",
+          "t": 3.42
+        },
+        {
+          "w": "именем",
+          "t": 3.76
+        },
+        {
+          "w": "так",
+          "t": 4.18
+        },
+        {
+          "w": "что",
+          "t": 4.6
+        },
+        {
+          "w": "банк",
+          "t": 4.76
+        },
+        {
+          "w": "не",
+          "t": 5.12
+        },
+        {
+          "w": "замечает",
+          "t": 5.26
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "text": "Ты не грабишь. Ты просто становишься тем, кем нужно сегодня: пилотом, врачом, адвокатом.",
+      "from": 6.2,
+      "to": 12.58,
+      "words": [
+        {
+          "w": "Ты",
+          "t": 6.2
+        },
+        {
+          "w": "не",
+          "t": 6.36
+        },
+        {
+          "w": "грабишь",
+          "t": 6.5
+        },
+        {
+          "w": "Ты",
+          "t": 7.32
+        },
+        {
+          "w": "просто",
+          "t": 7.46
+        },
+        {
+          "w": "становишься",
+          "t": 7.68
+        },
+        {
+          "w": "тем",
+          "t": 8.26
+        },
+        {
+          "w": "кем",
+          "t": 8.66
+        },
+        {
+          "w": "нужно",
+          "t": 8.76
+        },
+        {
+          "w": "сегодня",
+          "t": 9.1
+        },
+        {
+          "w": "пилотом",
+          "t": 10.0
+        },
+        {
+          "w": "врачом",
+          "t": 10.8
+        },
+        {
+          "w": "адвокатом",
+          "t": 11.48
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "text": "Они смотрят на форму. На документы. На улыбку. И не задают лишних вопросов.",
+      "from": 12.58,
+      "to": 17.96,
+      "words": [
+        {
+          "w": "Они",
+          "t": 12.58
+        },
+        {
+          "w": "смотрят",
+          "t": 12.74
+        },
+        {
+          "w": "на",
+          "t": 13.16
+        },
+        {
+          "w": "форму",
+          "t": 13.28
+        },
+        {
+          "w": "На",
+          "t": 14.0
+        },
+        {
+          "w": "документы",
+          "t": 14.12
+        },
+        {
+          "w": "На",
+          "t": 15.0
+        },
+        {
+          "w": "улыбку",
+          "t": 15.16
+        },
+        {
+          "w": "И",
+          "t": 15.92
+        },
+        {
+          "w": "не",
+          "t": 16.1
+        },
+        {
+          "w": "задают",
+          "t": 16.22
+        },
+        {
+          "w": "лишних",
+          "t": 16.56
+        },
+        {
+          "w": "вопросов",
+          "t": 16.9
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "text": "Ты переезжаешь. Меняешь имя. Меняешь город. Каждый раз ты кто-то другой.",
+      "from": 17.96,
+      "to": 23.54,
+      "words": [
+        {
+          "w": "Ты",
+          "t": 17.96
+        },
+        {
+          "w": "переезжаешь",
+          "t": 18.14
+        },
+        {
+          "w": "Меняешь",
+          "t": 19.14
+        },
+        {
+          "w": "имя",
+          "t": 19.5
+        },
+        {
+          "w": "Меняешь",
+          "t": 20.16
+        },
+        {
+          "w": "город",
+          "t": 20.58
+        },
+        {
+          "w": "Каждый",
+          "t": 21.36
+        },
+        {
+          "w": "раз",
+          "t": 21.76
+        },
+        {
+          "w": "ты",
+          "t": 21.98
+        },
+        {
+          "w": "кто-то",
+          "t": 22.24
+        },
+        {
+          "w": "другой",
+          "t": 22.54
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "text": "Один человек уже несколько лет смотрит на твои чеки. Он знает почерк. Он знает, что ты снова где-то рядом.",
+      "from": 23.54,
+      "to": 30.18,
+      "words": [
+        {
+          "w": "Один",
+          "t": 23.54
+        },
+        {
+          "w": "человек",
+          "t": 23.82
+        },
+        {
+          "w": "уже",
+          "t": 24.14
+        },
+        {
+          "w": "несколько",
+          "t": 24.4
+        },
+        {
+          "w": "лет",
+          "t": 24.8
+        },
+        {
+          "w": "смотрит",
+          "t": 25.18
+        },
+        {
+          "w": "на",
+          "t": 25.62
+        },
+        {
+          "w": "твои",
+          "t": 25.72
+        },
+        {
+          "w": "чеки",
+          "t": 25.94
+        },
+        {
+          "w": "Он",
+          "t": 26.74
+        },
+        {
+          "w": "знает",
+          "t": 26.88
+        },
+        {
+          "w": "почерк",
+          "t": 27.12
+        },
+        {
+          "w": "Он",
+          "t": 27.68
+        },
+        {
+          "w": "знает",
+          "t": 28.02
+        },
+        {
+          "w": "что",
+          "t": 28.44
+        },
+        {
+          "w": "ты",
+          "t": 28.58
+        },
+        {
+          "w": "снова",
+          "t": 28.68
+        },
+        {
+          "w": "где-то",
+          "t": 29.0
+        },
+        {
+          "w": "рядом",
+          "t": 29.36
+        }
+      ]
+    },
+    {
+      "id": "L6",
+      "text": "Ты думаешь, что ты всегда на шаг впереди. Он думает иначе.",
+      "from": 30.18,
+      "to": 34.08,
+      "words": [
+        {
+          "w": "Ты",
+          "t": 30.18
+        },
+        {
+          "w": "думаешь",
+          "t": 30.32
+        },
+        {
+          "w": "что",
+          "t": 30.72
+        },
+        {
+          "w": "ты",
+          "t": 30.86
+        },
+        {
+          "w": "всегда",
+          "t": 30.96
+        },
+        {
+          "w": "на",
+          "t": 31.28
+        },
+        {
+          "w": "шаг",
+          "t": 31.48
+        },
+        {
+          "w": "впереди",
+          "t": 31.68
+        },
+        {
+          "w": "Он",
+          "t": 32.62
+        },
+        {
+          "w": "думает",
+          "t": 32.82
+        },
+        {
+          "w": "иначе",
+          "t": 33.18
+        }
+      ]
+    },
+    {
+      "id": "L7",
+      "text": "Потом тебя ловят. Не потому что ты ошибся в подписи. А потому что ты устал бежать.",
+      "from": 34.08,
+      "to": 39.52,
+      "words": [
+        {
+          "w": "Потом",
+          "t": 34.08
+        },
+        {
+          "w": "тебя",
+          "t": 34.3
+        },
+        {
+          "w": "ловят",
+          "t": 34.54
+        },
+        {
+          "w": "Не",
+          "t": 35.32
+        },
+        {
+          "w": "потому",
+          "t": 35.44
+        },
+        {
+          "w": "что",
+          "t": 35.7
+        },
+        {
+          "w": "ты",
+          "t": 35.92
+        },
+        {
+          "w": "ошибся",
+          "t": 36.02
+        },
+        {
+          "w": "в",
+          "t": 36.42
+        },
+        {
+          "w": "подписи",
+          "t": 36.5
+        },
+        {
+          "w": "А",
+          "t": 37.44
+        },
+        {
+          "w": "потому",
+          "t": 37.5
+        },
+        {
+          "w": "что",
+          "t": 37.82
+        },
+        {
+          "w": "ты",
+          "t": 38.0
+        },
+        {
+          "w": "устал",
+          "t": 38.12
+        },
+        {
+          "w": "бежать",
+          "t": 38.5
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "text": "Через годы ты сидишь напротив тех, кого раньше обманывал. И объясняешь им, как не повторить твои ошибки.",
+      "from": 39.52,
+      "to": 45.68,
+      "words": [
+        {
+          "w": "Через",
+          "t": 39.52
+        },
+        {
+          "w": "годы",
+          "t": 39.84
+        },
+        {
+          "w": "ты",
+          "t": 40.16
+        },
+        {
+          "w": "сидишь",
+          "t": 40.26
+        },
+        {
+          "w": "напротив",
+          "t": 40.56
+        },
+        {
+          "w": "тех",
+          "t": 41.0
+        },
+        {
+          "w": "кого",
+          "t": 41.3
+        },
+        {
+          "w": "раньше",
+          "t": 41.48
+        },
+        {
+          "w": "обманывал",
+          "t": 41.7
+        },
+        {
+          "w": "И",
+          "t": 42.68
+        },
+        {
+          "w": "объясняешь",
+          "t": 42.72
+        },
+        {
+          "w": "им",
+          "t": 43.4
+        },
+        {
+          "w": "как",
+          "t": 43.7
+        },
+        {
+          "w": "не",
+          "t": 43.78
+        },
+        {
+          "w": "повторить",
+          "t": 43.96
+        },
+        {
+          "w": "твои",
+          "t": 44.42
+        },
+        {
+          "w": "ошибки",
+          "t": 44.7
+        }
+      ]
+    },
+    {
+      "id": "L9",
+      "text": "Ты больше не убегаешь. Ты просто рассказываешь.",
+      "from": 45.68,
+      "to": 48.34,
+      "words": [
+        {
+          "w": "Ты",
+          "t": 45.68
+        },
+        {
+          "w": "больше",
+          "t": 45.82
+        },
+        {
+          "w": "не",
+          "t": 46.02
+        },
+        {
+          "w": "убегаешь",
+          "t": 46.22
+        },
+        {
+          "w": "Ты",
+          "t": 47.18
+        },
+        {
+          "w": "просто",
+          "t": 47.28
+        },
+        {
+          "w": "рассказываешь",
+          "t": 47.54
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "start": 0.0,
+      "end": 6.2,
+      "beats": {
+        "hook": 0.0,
+        "pen1": 2.84,
+        "pen2": 3.09,
+        "pen3": 3.215,
+        "hookOut": 3.6,
+        "bank": 4.76
+      },
+      "cueRef": {
+        "hook": "L1.Представь",
+        "pen1": "L1.подписываться",
+        "pen2": "L1.подписываться+0.250",
+        "pen3": "L1.подписываться+0.375",
+        "hookOut": "hold of the name past 3.0 s",
+        "bank": "L1.банк"
+      },
+      "reads": [
+        {
+          "what": "The name, before any of the story.",
+          "from": 0.0,
+          "to": 2.2
+        },
+        {
+          "what": "He can already sign another person's name so a bank misses it.",
+          "from": 2.22,
+          "to": 5.8
+        }
+      ],
+      "transitionOut": {
+        "type": "scale-through",
+        "dur": 0.45,
+        "why": "The signature is what the uniform is trusted for. The check becomes the collar.",
+        "bridge": "check"
+      }
+    },
+    {
+      "id": "s2",
+      "start": 6.2,
+      "end": 12.58,
+      "beats": {
+        "deny": 6.2,
+        "become": 7.32,
+        "pilot": 10.0,
+        "doctor": 10.8,
+        "lawyer": 11.48
+      },
+      "cueRef": {
+        "deny": "L2.Ты",
+        "become": "L2.просто",
+        "pilot": "L2.пилотом",
+        "doctor": "L2.врачом",
+        "lawyer": "L2.адвокатом"
+      },
+      "reads": [
+        {
+          "what": "He does not steal. He becomes whoever the day needs.",
+          "from": 6.2,
+          "to": 9.62
+        },
+        {
+          "what": "Three masks, each a finished costume on its first frame.",
+          "from": 10.0,
+          "to": 12.14
+        }
+      ],
+      "transitionOut": {
+        "type": "cut",
+        "dur": 0.0,
+        "why": "The uniform works, so the next shot is the people it works on. Match on the face they fail to question.",
+        "bridge": "frank"
+      }
+    },
+    {
+      "id": "s3",
+      "start": 12.58,
+      "end": 17.96,
+      "beats": {
+        "look": 12.58,
+        "form": 13.28,
+        "papers": 14.12,
+        "smile": 15.16,
+        "quiet": 15.92
+      },
+      "cueRef": {
+        "look": "L3.Они",
+        "form": "L3.форму",
+        "papers": "L3.документы",
+        "smile": "L3.улыбку",
+        "quiet": "L3.И"
+      },
+      "reads": [
+        {
+          "what": "They look at the uniform, the papers, the smile.",
+          "from": 12.58,
+          "to": 15.66
+        },
+        {
+          "what": "They do not ask the extra question.",
+          "from": 15.92,
+          "to": 17.52
+        }
+      ],
+      "transitionOut": {
+        "type": "cut",
+        "dur": 0.0,
+        "why": "The unasked question is what lets him leave. Match the smile to the window of the next city.",
+        "bridge": "frank"
+      }
+    },
+    {
+      "id": "s4",
+      "start": 17.96,
+      "end": 23.54,
+      "beats": {
+        "depart": 17.96,
+        "rename": 19.14,
+        "city": 20.16,
+        "other": 22.54,
+        "breath": 22.94
+      },
+      "cueRef": {
+        "depart": "L4.переезжаешь",
+        "rename": "L4.Меняешь",
+        "city": "L4.город",
+        "other": "L4.другой",
+        "breath": "pause after L4.другой"
+      },
+      "reads": [
+        {
+          "what": "He moves, changes the name, changes the city.",
+          "from": 17.96,
+          "to": 20.86
+        },
+        {
+          "what": "Each time he is someone else. Hold through the breath.",
+          "from": 21.36,
+          "to": 23.42
+        }
+      ],
+      "transitionOut": {
+        "type": "scale-through",
+        "dur": 0.5,
+        "why": "The same check changes job: from a ticket in his pocket to evidence on a desk.",
+        "bridge": "check"
+      }
+    },
+    {
+      "id": "s5",
+      "start": 23.54,
+      "end": 30.18,
+      "beats": {
+        "reader": 23.54,
+        "checks": 25.94,
+        "hand": 27.12,
+        "near": 29.0
+      },
+      "cueRef": {
+        "reader": "L5.Один",
+        "checks": "L5.чеки",
+        "hand": "L5.почерк",
+        "near": "L5.где-то"
+      },
+      "reads": [
+        {
+          "what": "One man has been reading the checks for years.",
+          "from": 23.54,
+          "to": 26.38
+        },
+        {
+          "what": "He knows the handwriting.",
+          "from": 26.74,
+          "to": 28.68
+        },
+        {
+          "what": "He knows the writer is nearby again.",
+          "from": 28.68,
+          "to": 29.66
+        }
+      ],
+      "transitionOut": {
+        "type": "cut",
+        "dur": 0.0,
+        "why": "Two beliefs about the same gap. Cut from the reader's desk to the locked two-shot.",
+        "bridge": "check"
+      }
+    },
+    {
+      "id": "s6",
+      "start": 30.18,
+      "end": 34.08,
+      "beats": {
+        "thinks": 30.18,
+        "step": 31.68,
+        "otherwise": 33.18
+      },
+      "cueRef": {
+        "thinks": "L6.думаешь",
+        "step": "L6.впереди",
+        "otherwise": "L6.иначе"
+      },
+      "reads": [
+        {
+          "what": "Frank thinks he is always a step ahead.",
+          "from": 30.18,
+          "to": 32.14
+        },
+        {
+          "what": "The reader thinks otherwise.",
+          "from": 32.62,
+          "to": 33.68
+        }
+      ],
+      "transitionOut": {
+        "type": "cut",
+        "dur": 0.0,
+        "why": "The step ahead ends. The one impact cut of the chase, on the word that names the arrest.",
+        "bridge": "frank"
+      }
+    },
+    {
+      "id": "s7",
+      "start": 34.08,
+      "end": 39.52,
+      "beats": {
+        "then": 34.08,
+        "caught": 34.54,
+        "notSig": 36.5,
+        "tired": 38.12,
+        "silenceIn": 38.98,
+        "payoffHit": 39.46
+      },
+      "cueRef": {
+        "then": "L7.Потом",
+        "caught": "L7.ловят",
+        "notSig": "L7.подписи",
+        "tired": "L7.устал",
+        "silenceIn": "end of L7.бежать",
+        "payoffHit": "pause before L8.Через"
+      },
+      "reads": [
+        {
+          "what": "They catch him.",
+          "from": 34.08,
+          "to": 34.98
+        },
+        {
+          "what": "Not because the signature failed.",
+          "from": 35.32,
+          "to": 37.12
+        },
+        {
+          "what": "Because he was tired of running.",
+          "from": 37.44,
+          "to": 38.98
+        }
+      ],
+      "transitionOut": {
+        "type": "time-cut",
+        "dur": 0.0,
+        "why": "Same table, years later. The check is no longer a way out. It is the lesson.",
+        "bridge": "check"
+      }
+    },
+    {
+      "id": "s8",
+      "start": 39.52,
+      "end": 50.1,
+      "beats": {
+        "years": 39.52,
+        "sits": 40.26,
+        "explains": 42.72,
+        "stops": 45.68,
+        "tells": 47.54,
+        "poster": 48.34
+      },
+      "cueRef": {
+        "years": "L8.Через",
+        "sits": "L8.сидишь",
+        "explains": "L8.объясняешь",
+        "stops": "L9.Ты",
+        "tells": "L9.рассказываешь",
+        "poster": "speech end 48.340"
+      },
+      "reads": [
+        {
+          "what": "Years later he sits across from the people he fooled.",
+          "from": 39.52,
+          "to": 42.68
+        },
+        {
+          "what": "He explains how not to repeat the mistake.",
+          "from": 42.68,
+          "to": 45.22
+        },
+        {
+          "what": "He is not running. He is telling. The poster holds.",
+          "from": 45.68,
+          "to": 50.1
+        }
+      ]
+    }
+  ],
+  "cuts": [
+    12.58,
+    17.96,
+    30.18,
+    34.08,
+    39.52
+  ],
+  "hero": {
+    "t": 39.46,
+    "what": "In the pause before «Через годы», the check hits the seminar table. The chase gap is gone. The next frame is years later and he is already sitting down to tell it."
+  },
+  "silences": [
+    {
+      "from": 22.94,
+      "to": 23.42,
+      "why": "Breath on «кто-то другой» before the reader exists."
+    },
+    {
+      "from": 38.98,
+      "to": 39.4,
+      "why": "The floor drops after «устал бежать», before the table hit."
+    }
+  ],
+  "sfx": [
+    {
+      "at": "s1.pen1",
+      "offset": 0.0,
+      "src": "pen-scratch",
+      "gain": 0.16,
+      "why": "The pen is the material. Three strokes, intervals 0.25 then 0.125."
+    },
+    {
+      "at": "s1.pen2",
+      "offset": 0.0,
+      "src": "pen-scratch-b",
+      "gain": 0.12,
+      "why": "Second stroke, a different sample, quieter."
+    },
+    {
+      "at": "s1.pen3",
+      "offset": 0.0,
+      "src": "pen-scratch",
+      "gain": 0.09,
+      "why": "Third stroke. The acceleration lands and stops."
+    },
+    {
+      "at": "s4.depart",
+      "offset": 0.0,
+      "src": "whoosh-city",
+      "gain": 0.12,
+      "why": "The one camera whoosh. The other cuts stay dry."
+    },
+    {
+      "at": "s5.hand",
+      "offset": 0.0,
+      "src": "paper-macro",
+      "gain": 0.1,
+      "why": "Paper, not a hit. The ink fills the frame."
+    },
+    {
+      "at": "s7.caught",
+      "offset": -0.02,
+      "src": "impact-arrest",
+      "gain": 0.22,
+      "why": "Second-loudest hit. The arrest is the turn, not the payoff."
+    },
+    {
+      "at": "s7.notSig",
+      "offset": 0.0,
+      "src": "riser-low",
+      "gain": 0.14,
+      "why": "The one riser. Density before the silence. It is gone at 38.98, no tail."
+    },
+    {
+      "at": "s7.payoffHit",
+      "offset": 0.0,
+      "src": "impact-table",
+      "gain": 0.32,
+      "why": "Loudest non-voice hit, in the pause, about the level of the voice."
+    },
+    {
+      "at": "s8.sits",
+      "offset": 0.04,
+      "src": "chair",
+      "gain": 0.1,
+      "why": "He sits. One foley, then the room is quiet."
+    }
+  ],
+  "captions": [
+    {
+      "from": 0.0,
+      "to": 1.04,
+      "text": "ПРЕДСТАВЬ",
+      "accent": "ПРЕДСТАВЬ",
+      "src": "vo:L1",
+      "words": [
+        "Представь"
+      ]
+    },
+    {
+      "from": 1.04,
+      "to": 2.22,
+      "text": "ТЕБЕ ШЕСТНАДЦАТЬ",
+      "accent": "ШЕСТНАДЦАТЬ",
+      "src": "vo:L1",
+      "words": [
+        "Тебе",
+        "шестнадцать"
+      ]
+    },
+    {
+      "from": 2.22,
+      "to": 2.54,
+      "text": "ТЫ УЖЕ",
+      "accent": "УЖЕ",
+      "src": "vo:L1",
+      "words": [
+        "Ты",
+        "уже"
+      ]
+    },
+    {
+      "from": 2.54,
+      "to": 3.42,
+      "text": "УМЕЕШЬ ПОДПИСЫВАТЬСЯ",
+      "accent": "ПОДПИСЫВАТЬСЯ",
+      "src": "vo:L1",
+      "words": [
+        "умеешь",
+        "подписываться"
+      ]
+    },
+    {
+      "from": 3.42,
+      "to": 4.18,
+      "text": "ЧУЖИМ ИМЕНЕМ",
+      "accent": "ИМЕНЕМ",
+      "src": "vo:L1",
+      "words": [
+        "чужим",
+        "именем"
+      ]
+    },
+    {
+      "from": 4.18,
+      "to": 4.76,
+      "text": "ТАК ЧТО",
+      "accent": "ТАК",
+      "src": "vo:L1",
+      "words": [
+        "так",
+        "что"
+      ]
+    },
+    {
+      "from": 4.76,
+      "to": 5.26,
+      "text": "БАНК НЕ",
+      "accent": "БАНК",
+      "src": "vo:L1",
+      "words": [
+        "банк",
+        "не"
+      ]
+    },
+    {
+      "from": 5.26,
+      "to": 6.2,
+      "text": "ЗАМЕЧАЕТ",
+      "accent": "ЗАМЕЧАЕТ",
+      "src": "vo:L1",
+      "words": [
+        "замечает"
+      ]
+    },
+    {
+      "from": 6.2,
+      "to": 6.5,
+      "text": "ТЫ НЕ",
+      "accent": "НЕ",
+      "src": "vo:L2",
+      "words": [
+        "Ты",
+        "не"
+      ]
+    },
+    {
+      "from": 6.5,
+      "to": 7.32,
+      "text": "ГРАБИШЬ",
+      "accent": "ГРАБИШЬ",
+      "src": "vo:L2",
+      "words": [
+        "грабишь"
+      ]
+    },
+    {
+      "from": 7.32,
+      "to": 7.68,
+      "text": "ТЫ ПРОСТО",
+      "accent": "ПРОСТО",
+      "src": "vo:L2",
+      "words": [
+        "Ты",
+        "просто"
+      ]
+    },
+    {
+      "from": 7.68,
+      "to": 8.66,
+      "text": "СТАНОВИШЬСЯ ТЕМ",
+      "accent": "СТАНОВИШЬСЯ",
+      "src": "vo:L2",
+      "words": [
+        "становишься",
+        "тем"
+      ]
+    },
+    {
+      "from": 8.66,
+      "to": 9.1,
+      "text": "КЕМ НУЖНО",
+      "accent": "НУЖНО",
+      "src": "vo:L2",
+      "words": [
+        "кем",
+        "нужно"
+      ]
+    },
+    {
+      "from": 9.1,
+      "to": 10.0,
+      "text": "СЕГОДНЯ",
+      "accent": "СЕГОДНЯ",
+      "src": "vo:L2",
+      "words": [
+        "сегодня"
+      ]
+    },
+    {
+      "from": 10.0,
+      "to": 10.8,
+      "text": "ПИЛОТОМ",
+      "accent": "ПИЛОТОМ",
+      "src": "vo:L2",
+      "words": [
+        "пилотом"
+      ]
+    },
+    {
+      "from": 10.8,
+      "to": 11.48,
+      "text": "ВРАЧОМ",
+      "accent": "ВРАЧОМ",
+      "src": "vo:L2",
+      "words": [
+        "врачом"
+      ]
+    },
+    {
+      "from": 11.48,
+      "to": 12.58,
+      "text": "АДВОКАТОМ",
+      "accent": "АДВОКАТОМ",
+      "src": "vo:L2",
+      "words": [
+        "адвокатом"
+      ]
+    },
+    {
+      "from": 12.58,
+      "to": 13.16,
+      "text": "ОНИ СМОТРЯТ",
+      "accent": "СМОТРЯТ",
+      "src": "vo:L3",
+      "words": [
+        "Они",
+        "смотрят"
+      ]
+    },
+    {
+      "from": 13.16,
+      "to": 14.0,
+      "text": "НА ФОРМУ",
+      "accent": "ФОРМУ",
+      "src": "vo:L3",
+      "words": [
+        "на",
+        "форму"
+      ]
+    },
+    {
+      "from": 14.0,
+      "to": 15.0,
+      "text": "НА ДОКУМЕНТЫ",
+      "accent": "ДОКУМЕНТЫ",
+      "src": "vo:L3",
+      "words": [
+        "На",
+        "документы"
+      ]
+    },
+    {
+      "from": 15.0,
+      "to": 15.92,
+      "text": "НА УЛЫБКУ",
+      "accent": "УЛЫБКУ",
+      "src": "vo:L3",
+      "words": [
+        "На",
+        "улыбку"
+      ]
+    },
+    {
+      "from": 15.92,
+      "to": 16.22,
+      "text": "И НЕ",
+      "accent": "НЕ",
+      "src": "vo:L3",
+      "words": [
+        "И",
+        "не"
+      ]
+    },
+    {
+      "from": 16.22,
+      "to": 16.9,
+      "text": "ЗАДАЮТ ЛИШНИХ",
+      "accent": "ЛИШНИХ",
+      "src": "vo:L3",
+      "words": [
+        "задают",
+        "лишних"
+      ]
+    },
+    {
+      "from": 16.9,
+      "to": 17.96,
+      "text": "ВОПРОСОВ",
+      "accent": "ВОПРОСОВ",
+      "src": "vo:L3",
+      "words": [
+        "вопросов"
+      ]
+    },
+    {
+      "from": 17.96,
+      "to": 19.14,
+      "text": "ТЫ ПЕРЕЕЗЖАЕШЬ",
+      "accent": "ПЕРЕЕЗЖАЕШЬ",
+      "src": "vo:L4",
+      "words": [
+        "Ты",
+        "переезжаешь"
+      ]
+    },
+    {
+      "from": 19.14,
+      "to": 20.16,
+      "text": "МЕНЯЕШЬ ИМЯ",
+      "accent": "ИМЯ",
+      "src": "vo:L4",
+      "words": [
+        "Меняешь",
+        "имя"
+      ]
+    },
+    {
+      "from": 20.16,
+      "to": 21.36,
+      "text": "МЕНЯЕШЬ ГОРОД",
+      "accent": "ГОРОД",
+      "src": "vo:L4",
+      "words": [
+        "Меняешь",
+        "город"
+      ]
+    },
+    {
+      "from": 21.36,
+      "to": 21.98,
+      "text": "КАЖДЫЙ РАЗ",
+      "accent": "РАЗ",
+      "src": "vo:L4",
+      "words": [
+        "Каждый",
+        "раз"
+      ]
+    },
+    {
+      "from": 21.98,
+      "to": 22.54,
+      "text": "ТЫ КТО-ТО",
+      "accent": "КТО-ТО",
+      "src": "vo:L4",
+      "words": [
+        "ты",
+        "кто-то"
+      ]
+    },
+    {
+      "from": 22.54,
+      "to": 23.54,
+      "text": "ДРУГОЙ",
+      "accent": "ДРУГОЙ",
+      "src": "vo:L4",
+      "words": [
+        "другой"
+      ]
+    },
+    {
+      "from": 23.54,
+      "to": 24.14,
+      "text": "ОДИН ЧЕЛОВЕК",
+      "accent": "ЧЕЛОВЕК",
+      "src": "vo:L5",
+      "words": [
+        "Один",
+        "человек"
+      ]
+    },
+    {
+      "from": 24.14,
+      "to": 24.8,
+      "text": "УЖЕ НЕСКОЛЬКО",
+      "accent": "НЕСКОЛЬКО",
+      "src": "vo:L5",
+      "words": [
+        "уже",
+        "несколько"
+      ]
+    },
+    {
+      "from": 24.8,
+      "to": 25.62,
+      "text": "ЛЕТ СМОТРИТ",
+      "accent": "СМОТРИТ",
+      "src": "vo:L5",
+      "words": [
+        "лет",
+        "смотрит"
+      ]
+    },
+    {
+      "from": 25.62,
+      "to": 25.94,
+      "text": "НА ТВОИ",
+      "accent": "ТВОИ",
+      "src": "vo:L5",
+      "words": [
+        "на",
+        "твои"
+      ]
+    },
+    {
+      "from": 25.94,
+      "to": 26.74,
+      "text": "ЧЕКИ",
+      "accent": "ЧЕКИ",
+      "src": "vo:L5",
+      "words": [
+        "чеки"
+      ]
+    },
+    {
+      "from": 26.74,
+      "to": 27.12,
+      "text": "ОН ЗНАЕТ",
+      "accent": "ЗНАЕТ",
+      "src": "vo:L5",
+      "words": [
+        "Он",
+        "знает"
+      ]
+    },
+    {
+      "from": 27.12,
+      "to": 27.68,
+      "text": "ПОЧЕРК",
+      "accent": "ПОЧЕРК",
+      "src": "vo:L5",
+      "words": [
+        "почерк"
+      ]
+    },
+    {
+      "from": 27.68,
+      "to": 28.44,
+      "text": "ОН ЗНАЕТ",
+      "accent": "ЗНАЕТ",
+      "src": "vo:L5",
+      "words": [
+        "Он",
+        "знает"
+      ]
+    },
+    {
+      "from": 28.44,
+      "to": 28.68,
+      "text": "ЧТО ТЫ",
+      "accent": "ТЫ",
+      "src": "vo:L5",
+      "words": [
+        "что",
+        "ты"
+      ]
+    },
+    {
+      "from": 28.68,
+      "to": 29.36,
+      "text": "СНОВА ГДЕ-ТО",
+      "accent": "ГДЕ-ТО",
+      "src": "vo:L5",
+      "words": [
+        "снова",
+        "где-то"
+      ]
+    },
+    {
+      "from": 29.36,
+      "to": 30.18,
+      "text": "РЯДОМ",
+      "accent": "РЯДОМ",
+      "src": "vo:L5",
+      "words": [
+        "рядом"
+      ]
+    },
+    {
+      "from": 30.18,
+      "to": 30.72,
+      "text": "ТЫ ДУМАЕШЬ",
+      "accent": "ДУМАЕШЬ",
+      "src": "vo:L6",
+      "words": [
+        "Ты",
+        "думаешь"
+      ]
+    },
+    {
+      "from": 30.72,
+      "to": 30.96,
+      "text": "ЧТО ТЫ",
+      "accent": "ТЫ",
+      "src": "vo:L6",
+      "words": [
+        "что",
+        "ты"
+      ]
+    },
+    {
+      "from": 30.96,
+      "to": 31.48,
+      "text": "ВСЕГДА НА",
+      "accent": "ВСЕГДА",
+      "src": "vo:L6",
+      "words": [
+        "всегда",
+        "на"
+      ]
+    },
+    {
+      "from": 31.48,
+      "to": 32.62,
+      "text": "ШАГ ВПЕРЕДИ",
+      "accent": "ВПЕРЕДИ",
+      "src": "vo:L6",
+      "words": [
+        "шаг",
+        "впереди"
+      ]
+    },
+    {
+      "from": 32.62,
+      "to": 33.18,
+      "text": "ОН ДУМАЕТ",
+      "accent": "ДУМАЕТ",
+      "src": "vo:L6",
+      "words": [
+        "Он",
+        "думает"
+      ]
+    },
+    {
+      "from": 33.18,
+      "to": 34.08,
+      "text": "ИНАЧЕ",
+      "accent": "ИНАЧЕ",
+      "src": "vo:L6",
+      "words": [
+        "иначе"
+      ]
+    },
+    {
+      "from": 34.08,
+      "to": 34.54,
+      "text": "ПОТОМ ТЕБЯ",
+      "accent": "ТЕБЯ",
+      "src": "vo:L7",
+      "words": [
+        "Потом",
+        "тебя"
+      ]
+    },
+    {
+      "from": 34.54,
+      "to": 35.32,
+      "text": "ЛОВЯТ",
+      "accent": "ЛОВЯТ",
+      "src": "vo:L7",
+      "words": [
+        "ловят"
+      ]
+    },
+    {
+      "from": 35.32,
+      "to": 35.7,
+      "text": "НЕ ПОТОМУ",
+      "accent": "ПОТОМУ",
+      "src": "vo:L7",
+      "words": [
+        "Не",
+        "потому"
+      ]
+    },
+    {
+      "from": 35.7,
+      "to": 36.02,
+      "text": "ЧТО ТЫ",
+      "accent": "ТЫ",
+      "src": "vo:L7",
+      "words": [
+        "что",
+        "ты"
+      ]
+    },
+    {
+      "from": 36.02,
+      "to": 36.5,
+      "text": "ОШИБСЯ В",
+      "accent": "ОШИБСЯ",
+      "src": "vo:L7",
+      "words": [
+        "ошибся",
+        "в"
+      ]
+    },
+    {
+      "from": 36.5,
+      "to": 37.44,
+      "text": "ПОДПИСИ",
+      "accent": "ПОДПИСИ",
+      "src": "vo:L7",
+      "words": [
+        "подписи"
+      ]
+    },
+    {
+      "from": 37.44,
+      "to": 37.82,
+      "text": "А ПОТОМУ",
+      "accent": "ПОТОМУ",
+      "src": "vo:L7",
+      "words": [
+        "А",
+        "потому"
+      ]
+    },
+    {
+      "from": 37.82,
+      "to": 38.12,
+      "text": "ЧТО ТЫ",
+      "accent": "ТЫ",
+      "src": "vo:L7",
+      "words": [
+        "что",
+        "ты"
+      ]
+    },
+    {
+      "from": 38.12,
+      "to": 39.52,
+      "text": "УСТАЛ БЕЖАТЬ",
+      "accent": "УСТАЛ",
+      "src": "vo:L7",
+      "words": [
+        "устал",
+        "бежать"
+      ]
+    },
+    {
+      "from": 39.52,
+      "to": 40.16,
+      "text": "ЧЕРЕЗ ГОДЫ",
+      "accent": "ГОДЫ",
+      "src": "vo:L8",
+      "words": [
+        "Через",
+        "годы"
+      ]
+    },
+    {
+      "from": 40.16,
+      "to": 40.56,
+      "text": "ТЫ СИДИШЬ",
+      "accent": "СИДИШЬ",
+      "src": "vo:L8",
+      "words": [
+        "ты",
+        "сидишь"
+      ]
+    },
+    {
+      "from": 40.56,
+      "to": 41.3,
+      "text": "НАПРОТИВ ТЕХ",
+      "accent": "ТЕХ",
+      "src": "vo:L8",
+      "words": [
+        "напротив",
+        "тех"
+      ]
+    },
+    {
+      "from": 41.3,
+      "to": 41.7,
+      "text": "КОГО РАНЬШЕ",
+      "accent": "РАНЬШЕ",
+      "src": "vo:L8",
+      "words": [
+        "кого",
+        "раньше"
+      ]
+    },
+    {
+      "from": 41.7,
+      "to": 42.68,
+      "text": "ОБМАНЫВАЛ",
+      "accent": "ОБМАНЫВАЛ",
+      "src": "vo:L8",
+      "words": [
+        "обманывал"
+      ]
+    },
+    {
+      "from": 42.68,
+      "to": 43.4,
+      "text": "И ОБЪЯСНЯЕШЬ",
+      "accent": "ОБЪЯСНЯЕШЬ",
+      "src": "vo:L8",
+      "words": [
+        "И",
+        "объясняешь"
+      ]
+    },
+    {
+      "from": 43.4,
+      "to": 43.78,
+      "text": "ИМ КАК",
+      "accent": "КАК",
+      "src": "vo:L8",
+      "words": [
+        "им",
+        "как"
+      ]
+    },
+    {
+      "from": 43.78,
+      "to": 44.42,
+      "text": "НЕ ПОВТОРИТЬ",
+      "accent": "ПОВТОРИТЬ",
+      "src": "vo:L8",
+      "words": [
+        "не",
+        "повторить"
+      ]
+    },
+    {
+      "from": 44.42,
+      "to": 45.68,
+      "text": "ТВОИ ОШИБКИ",
+      "accent": "ОШИБКИ",
+      "src": "vo:L8",
+      "words": [
+        "твои",
+        "ошибки"
+      ]
+    },
+    {
+      "from": 45.68,
+      "to": 46.02,
+      "text": "ТЫ БОЛЬШЕ",
+      "accent": "БОЛЬШЕ",
+      "src": "vo:L9",
+      "words": [
+        "Ты",
+        "больше"
+      ]
+    },
+    {
+      "from": 46.02,
+      "to": 47.18,
+      "text": "НЕ УБЕГАЕШЬ",
+      "accent": "УБЕГАЕШЬ",
+      "src": "vo:L9",
+      "words": [
+        "не",
+        "убегаешь"
+      ]
+    },
+    {
+      "from": 47.18,
+      "to": 47.54,
+      "text": "ТЫ ПРОСТО",
+      "accent": "ПРОСТО",
+      "src": "vo:L9",
+      "words": [
+        "Ты",
+        "просто"
+      ]
+    },
+    {
+      "from": 47.54,
+      "to": 50.1,
+      "text": "РАССКАЗЫВАЕШЬ",
+      "accent": "РАССКАЗЫВАЕШЬ",
+      "src": "vo:L9",
+      "words": [
+        "рассказываешь"
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "id": "hook-frank",
+      "text": "ФРЭНК",
+      "from": 0.0,
+      "to": 3.6,
+      "role": "hook",
+      "px": 140,
+      "box": [
+        280,
+        268,
+        520,
+        150
+      ]
+    },
+    {
+      "id": "hook-name",
+      "text": "АБИГНЕЙЛ",
+      "from": 0.0,
+      "to": 3.6,
+      "role": "hook",
+      "px": 112,
+      "box": [
+        110,
+        418,
+        860,
+        140
+      ]
+    },
+    {
+      "id": "term-hand",
+      "text": "ПОЧЕРК",
+      "from": 27.12,
+      "to": 28.68,
+      "role": "term",
+      "px": 140,
+      "box": [
+        160,
+        860,
+        760,
+        180
+      ]
+    },
+    {
+      "id": "term-sign",
+      "text": "ПОДПИСИ",
+      "from": 36.5,
+      "to": 38.06,
+      "role": "term",
+      "px": 128,
+      "box": [
+        140,
+        880,
+        800,
+        170
+      ]
+    },
+    {
+      "id": "schema",
+      "text": "СХЕМА",
+      "from": 0.0,
+      "to": 50.1,
+      "role": null,
+      "px": 28,
+      "box": [
+        72,
+        620,
+        160,
+        36
+      ]
+    }
+  ],
+  "terms": [
+    "Абигнейл",
+    "почерк",
+    "подписи"
+  ],
+  "camera": [
+    {
+      "t": 0.0,
+      "zoom": 1.0,
+      "x": 0,
+      "y": 40,
+      "ease": "hold",
+      "why": "Frame 0 is the poster: desk, Frank screen-left, check in frame, hook already up."
+    },
+    {
+      "t": 2.84,
+      "zoom": 1.08,
+      "x": 0,
+      "y": 10,
+      "ease": "in-out",
+      "why": "Push lands as the pen touches the paper. Settled before the strokes."
+    },
+    {
+      "t": 6.2,
+      "zoom": 1.1,
+      "x": -120,
+      "y": 0,
+      "ease": "scale-through",
+      "why": "Arrive on the uniform. Frank stays screen-left."
+    },
+    {
+      "t": 10.0,
+      "zoom": 1.12,
+      "x": -180,
+      "y": 0,
+      "ease": "in-out",
+      "why": "Truck to the pilot. First of three masks."
+    },
+    {
+      "t": 10.8,
+      "zoom": 1.12,
+      "x": 0,
+      "y": 0,
+      "ease": "in-out",
+      "why": "Truck to the doctor. Same zoom, new x. Not a second push."
+    },
+    {
+      "t": 11.48,
+      "zoom": 1.24,
+      "x": 160,
+      "y": 0,
+      "ease": "slam-6",
+      "why": "Jump on «адвокатом»: 6 frames, 1.12 to 1.24. Do not zoom back out."
+    },
+    {
+      "t": 12.58,
+      "zoom": 1.06,
+      "x": 0,
+      "y": 90,
+      "ease": "cut",
+      "why": "Low pedestal on the watchers. A cut, not a zoom-out from the lawyer."
+    },
+    {
+      "t": 15.16,
+      "zoom": 1.06,
+      "x": 30,
+      "y": 20,
+      "ease": "in-out",
+      "why": "Rise settles on the smile. Zoom stays put."
+    },
+    {
+      "t": 17.96,
+      "zoom": 1.1,
+      "x": -240,
+      "y": 0,
+      "ease": "cut",
+      "why": "Whip starts on the city boards."
+    },
+    {
+      "t": 20.86,
+      "zoom": 1.1,
+      "x": 220,
+      "y": 0,
+      "ease": "whip-brake",
+      "why": "Long brake onto the new city. Zoom locked, so this is not another push."
+    },
+    {
+      "t": 22.54,
+      "zoom": 1.08,
+      "x": 0,
+      "y": 0,
+      "ease": "in-out",
+      "why": "Hold on the empty costume through the breath."
+    },
+    {
+      "t": 23.54,
+      "zoom": 1.02,
+      "x": 180,
+      "y": 0,
+      "ease": "scale-through",
+      "why": "The check arrives on the reader's desk. Reader is screen-right."
+    },
+    {
+      "t": 27.12,
+      "zoom": 1.62,
+      "x": 40,
+      "y": -20,
+      "ease": "slam-7",
+      "why": "Jump into the ink on «почерк»: 7 frames, and the macro stays."
+    },
+    {
+      "t": 30.18,
+      "zoom": 1.08,
+      "x": 0,
+      "y": 0,
+      "ease": "cut",
+      "why": "Locked two-shot. No drift. The gap number is the read."
+    },
+    {
+      "t": 33.18,
+      "zoom": 1.08,
+      "x": 36,
+      "y": 0,
+      "ease": "hold",
+      "why": "Bias the frame toward the reader on «иначе». No zoom."
+    },
+    {
+      "t": 34.08,
+      "zoom": 1.0,
+      "x": -30,
+      "y": 0,
+      "ease": "cut",
+      "why": "Hard cut into the arrest, already at speed."
+    },
+    {
+      "t": 34.54,
+      "zoom": 1.3,
+      "x": -10,
+      "y": 0,
+      "ease": "slam-5",
+      "why": "Jump on «ловят»: 5 frames, 1.00 to 1.30, plus a 12 px shake decaying as e^(-14τ)."
+    },
+    {
+      "t": 35.32,
+      "zoom": 1.22,
+      "x": 0,
+      "y": 0,
+      "ease": "crit",
+      "why": "Stay tight. Settling is not a zoom back to the wide."
+    },
+    {
+      "t": 38.98,
+      "zoom": 1.16,
+      "x": 0,
+      "y": 8,
+      "ease": "hold",
+      "why": "Camera is still through the silence."
+    },
+    {
+      "t": 39.46,
+      "zoom": 1.14,
+      "x": 0,
+      "y": 0,
+      "ease": "hero-spring",
+      "why": "The check hits the table. The only overshoot: ζ 0.72, about 3.8%, then gone."
+    },
+    {
+      "t": 39.52,
+      "zoom": 1.14,
+      "x": 0,
+      "y": 24,
+      "ease": "time-cut",
+      "why": "Same table, years later. Both of them seated."
+    },
+    {
+      "t": 45.68,
+      "zoom": 1.06,
+      "x": 0,
+      "y": 8,
+      "ease": "in-out",
+      "why": "Slow dolly out. It finishes before the last word."
+    },
+    {
+      "t": 47.54,
+      "zoom": 1.04,
+      "x": 0,
+      "y": 0,
+      "ease": "hold",
+      "why": "Poster lock on «рассказываешь». No drift to the end."
+    },
+    {
+      "t": 50.1,
+      "zoom": 1.04,
+      "x": 0,
+      "y": 0,
+      "ease": "hold",
+      "why": "Final frame is the same poster."
+    }
+  ],
+  "notes": {
+    "constant": "check",
+    "screenDirection": "Frank screen-left, the reader screen-right, from frame 0 onward.",
+    "endingAnswersOpening": "The opening check is a way out. The last frame is the same check on the table between them, and he is telling, not leaving.",
+    "hardCuts": "Five. Silent: 12.58, 30.18, 39.52. Sound: whoosh at 17.96, impact at 34.08/34.54. Scale-throughs at 6.20 and 23.54 are not cuts.",
+    "deliberateWarnings": [
+      "Captions are 1-2 words locked to speech, so many run under 0.7 s and over 3.5 words/s. The brief and the reference reels both require that. Merging to the 1.8 s phrase floor would put 4-5 words on screen.",
+      "Абигнейл is shown in the hook and is not in the locked VO. The VO speaks in the second person and never says the name."
+    ],
+    "slams": "адвокатом 6 frames, почерк 7 frames, ловят 5 frames. All under the 10-frame push.",
+    "music": "Bed only, ducked about 9 dB. Pulse through the chase, out for both silences, one held tone under the last line. Not a dance grid."
+  }
+}
