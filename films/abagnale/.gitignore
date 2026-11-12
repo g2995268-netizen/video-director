@@ -1,1 +1,4 @@
 refs/
+node_modules/
+draft/frames/
+draft/qa/
